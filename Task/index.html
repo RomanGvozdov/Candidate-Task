@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Renaissance Tower</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1LpA-8pi5FiZpqopVLu8owe_w7whT_U0&callback=initMap"
+	async defer></script>
+</head>
+<body>
+	<div class="backgroundimage">
+		<header class="header">
+			<div class="wrapper border">
+				<div class="flex-container">
+					<div class="logo">
+						<a href="#"><img src="img/logo.png" alt="Renaissance Tower"></a>
+					</div>
+					<div class="h1">
+						<h1 id="name"></h1>
+					</div>
+				</div>
+				<div class="bigtext address" id="address"></div>
+			</div>
+		</header>
+		<main class="section">
+			<div class="wrapper section-one bordersection background">
+				<div class="flex-container paddingbot">
+					<img class="img" src="img/tower.png" alt="tower">
+					<div id="map"></div>
+				</div>
+				<div class="line"></div>
+				<div class="property section-one">
+					<div class="textcenter textmedium color paddingbot">PROPERTY DETAILS</div>
+					<table class="regulartext">
+						<tr>
+							<td class="textbold color">Property Type:</td>
+							<td class="value paddingspace" id="property_type"></td>
+							<td class="textbold color paddingright">Website:</td>
+							<td class="value"><a class="link" href="" id="website"></a></td>
+						</tr>
+						<tr>
+							<td class="textbold color">Total Building Area:</td>
+							<td id="total_building_area"></td>
+							<td class="textbold color ">Property Class:</td>
+							<td id="property_class"></td>
+						</tr>
+						<tr>
+							<td class="textbold color">Tenancy:</td>
+							<td id="tenancy"></td>
+							<td class="textbold color">Year Built:</td>
+							<td id="year_built"></td>
+						</tr>
+						<tr>
+							<td class="textbold color">No. of Tenant:</td>
+							<td id="no_of_tenant"></td>
+							<td class="textbold color">Floors:</td>
+							<td id="floors"></td>
+						</tr>
+					</table>	
+				</div>
+				<div class="line"></div>
+				<div class="backgrounddescr">
+					<div class="description regulartext">
+						<span class="textbold color">Description: </span>
+						<span id="description"></span>
+					</div>
+				</div>	
+			</div>
+			<div class="wrapper section-one">
+				<div class="availabilities">
+					<div class="flex-container">
+						<img class="icon" src="img/comp.png" alt="availabilities">
+						<div class="textmedium color">
+							AVAILABILITIES
+						</div>
+					</div>
+					<div class="floatright smalltext records" id="records"></div>
+					<div class="left">
+						<table class="table smalltext" id="availabilities">
+							<tr class="main height color bordertr">
+								<td class="item1">Unit Name/Number</td>
+								<td class="item2">Record Type</td>
+								<td class="item3">Available Area</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/properties.json"></script>
+	<script src="js/script.js"></script>	
+</body>
+</html>

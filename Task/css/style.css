@@ -1,0 +1,194 @@
+/* General styles */
+html {
+	font-size: 10px;
+	margin: 0;
+}
+body {
+	box-sizing: border-box;
+}
+.backgroundimage{
+	background-image: url(../img/background.png);
+	height: 1600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.textmedium{
+	font: 600 2rem 'Roboto', sans-serif;
+}
+
+.textbold{
+	font: 700 2rem 'Roboto', sans-serif;
+}
+
+.smalltext{
+	font: 400 1.6rem 'Roboto', sans-serif;
+}
+
+.color{
+	color: #606D72;
+}
+
+.header, .section{
+	width: 100%;
+}
+.border{
+	border: 1px solid #F1F0F2;
+	border-radius: 4px 4px 0 0;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.logo{
+	padding-top: 20px;
+	margin-left: -30px;
+}
+
+.h1 {
+	font: 700 3rem 'Roboto', sans-serif;
+	color: #000;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.address{
+	font: 400 3.7rem 'Roboto', sans-serif;
+	padding-bottom: 30px;
+}
+
+.section-one{
+	padding-top: 15px;
+}
+
+.bordersection{
+	border: 1px solid #F1F0F2;
+	border-radius: ;
+}
+.background{
+	background: #F9F8FA;
+}
+
+.img{
+	display: block;
+	width: 50%;
+	padding-right: 15px;
+}
+
+#map{
+	width: 50%;
+	height: auto;
+}
+
+.line{
+	border-top: 1px solid  #F1F0F2;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.property{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.link{
+	text-decoration: none;
+	color: #3366BB;
+}
+
+.regulartext{
+	font: 400 2rem 'Roboto', sans-serif;
+}
+
+.paddingbot{
+	padding-bottom: 30px;
+}
+
+.paddingspace{
+	padding-right: 35%;
+}
+
+.paddingright{
+	padding-right: 13%;
+}
+
+.backgrounddescr{
+	margin-left: -15px;
+	margin-right: -15px;
+	background: #fff;
+}
+
+.description{
+	line-height: 1.5;
+	padding: 15px 20px;
+}
+
+.icon{
+	display: block;
+	margin-left: -15px;
+	padding-right: 15px;
+}
+
+.availabilities{
+	padding-top: 30px;
+	background: #fff;
+}
+
+.left{
+	padding-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.floatright{
+	float: right;
+}
+
+.records{
+	margin-top: -15px;
+	margin-right: -15px;
+}
+
+.table{
+	width: 100%;
+	table-layout: fixed;
+	border: 1px solid #F1F0F2;
+	border-radius: 4px;
+	border-collapse: collapse;
+}
+
+.item1{
+	width: 45%;
+}
+
+.item2{
+	width: 35%;
+}
+
+.item3{
+	width: 20%;
+}
+
+.main{
+	background: #F9F8FA;
+	font: 600 1.6rem 'Roboto', sans-serif;
+}
+
+.height{
+	height: 10vh;
+}
+.bordertr{
+	border: 1px solid #F1F0F2;
+}
